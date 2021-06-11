@@ -1,0 +1,71 @@
+.button{
+    width: 52px;
+    margin: 2vh 5vw;
+    padding: 15px 20px 15px 20px;
+    background-color: var(--comp-bg);
+    border-radius: 50px;
+    color: var(--text-hl);
+    font-weight: bold;
+    font-size: 1.2rem;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-container{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.button div{
+    transition: 0.5s;
+}
+
+.button:hover{
+    width: 200px;
+}
+
+.button div :last-of-type{
+    transition-delay: 500ms;
+    
+    opacity: 0;
+}
+
+.button:hover div :last-of-type{
+    opacity: 1;
+
+}
+
+table{
+    border-collapse: collapse;
+    font-family: 'Lato', sans-serif;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    overflow: hidden;
+}
+
+table thead tr{
+    background-color: var(--comp-bg);
+    text-align: left;
+}
+
+table th{
+    padding:15px 4%;
+    color: var(--text-hl);
+}
+
+table td{
+    padding:12px 4%;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    color: var(--text-cl);
+}
+
+table tbody  tr:nth-of-type(even) {
+    background-color: rgb(240, 240, 240);
+}

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --background: rgb(255, 255, 255);
+    --accent: rgb(1, 192, 199);
+    --comp-bg : rgb(0, 119, 255);
+
+    --text-hl: rgb(255, 255, 255);
+    --text-cl: rgb(0, 0, 0);
+}
